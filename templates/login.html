@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Techpro.club Admin</title>
+        <meta
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+            name="viewport"
+        />
+        <meta content="Admin section for Techpro.club" name="description" />
+        <meta content="Techpro.club Admin" name="author" />
+        <meta name="robots" content="noindex" />
+
+        <!-- ================== BEGIN core-css ================== -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link href="/assets/css/vendor.min.css" rel="stylesheet" />
+        <link href="/assets/css/google/app.min.css" rel="stylesheet" />
+        <!-- ================== END core-css ================== -->
+    </head>
+    <body class="pace-top">
+        <!-- BEGIN #loader -->
+        <div id="loader" class="app-loader">
+            <span class="spinner"></span>
+        </div>
+        <!-- END #loader -->
+
+        <!-- BEGIN #app -->
+        <div id="app" class="app">
+            <!-- BEGIN login -->
+            <div class="login login-v1">
+                <!-- BEGIN login-container -->
+                <div class="login-container">
+                    <!-- BEGIN login-header -->
+                    <div class="login-header">
+                        <div class="brand">
+                            <div>
+                                <span class="logo"> Admin Login </span>
+                                <img src="/assets/img/logo.png" width="300" />
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                    </div>
+                    <!-- END login-header -->
+
+                    <!-- BEGIN login-body -->
+                    <div class="login-body">
+                        <!-- BEGIN login-content -->
+                        <div class="login-content fs-13px">
+                            <form action="/projectlist" method="GET">
+                                <div class="form-floating mb-20px">
+                                    <input
+                                        type="email"
+                                        class="form-control fs-13px h-45px"
+                                        id="emailAddress"
+                                        placeholder="Email Address"
+                                    />
+                                    <label
+                                        for="emailAddress"
+                                        class="d-flex align-items-center py-0"
+                                        >Email Address</label
+                                    >
+                                </div>
+                                <div class="form-floating mb-20px">
+                                    <input
+                                        type="password"
+                                        class="form-control fs-13px h-45px"
+                                        id="password"
+                                        placeholder="Password"
+                                    />
+                                    <label
+                                        for="password"
+                                        class="d-flex align-items-center py-0"
+                                        >Password</label
+                                    >
+                                </div>
+                                <div class="form-check mb-20px">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="rememberMe"
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        for="rememberMe"
+                                    >
+                                        Remember Me
+                                    </label>
+                                </div>
+                                <div class="login-buttons">
+                                    <button
+                                        type="submit"
+                                        class="btn h-45px btn-primary d-block w-100 btn-lg"
+                                    >
+                                        Sign me in
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- END login-content -->
+                    </div>
+                    <!-- END login-body -->
+                </div>
+                <!-- END login-container -->
+            </div>
+            <!-- END login -->
+
+            <!-- BEGIN scroll-top-btn -->
+            <a
+                href="javascript:;"
+                class="btn btn-icon btn-circle btn-success btn-scroll-to-top"
+                data-toggle="scroll-to-top"
+                ><i class="fa fa-angle-up"></i
+            ></a>
+            <!-- END scroll-top-btn -->
+        </div>
+        <!-- END #app -->
+
+        <!-- ================== BEGIN core-js ================== -->
+        <script src="/assets/js/vendor.min.js"></script>
+        <script src="/assets/js/app.min.js"></script>
+        <!-- ================== END core-js ================== -->
+    </body>
+</html>
